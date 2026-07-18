@@ -1,17 +1,17 @@
-# Estimación de la Brecha Salarial por Género en la Región Caribe y Cartagena
+# Contraste de la Brecha Salarial por Género: Cartagena vs. Región Caribe
 
-Este repositorio contiene el código y flujo de trabajo econométrico desarrollado en R para analizar y cuantificar la brecha salarial por género en el mercado laboral de la Región Caribe colombiana, evaluando el rol de la informalidad como factor de penalización de los ingresos. 
+Este repositorio alberga el flujo de trabajo econométrico en R dedicado a analizar y contrastar la brecha salarial por género y la penalización del empleo informal entre el mercado laboral de Cartagena de Indias y el resto de los departamentos de la Región Caribe colombiana. 
 
-Utiliza los microdatos oficiales de la Gran Encuesta Integrada de Hogares (GEIH) del DANE.
+El estudio se sustenta metodológicamente en los microdatos oficiales de la Gran Encuesta Integrada de Hogares (GEIH) del DANE.
 
 ## 📊 Objetivos del Proyecto
-* **Cuantificación de la Brecha:** Estimar la diferencia en los ingresos por hora entre hombres y mujeres en la región, controlando por características sociodemográficas.
-* **Penalización por Informalidad:** Medir el impacto contractivo que tiene el sector informal sobre los salarios reales y cómo afecta diferencialmente a las mujeres.
-* **Enfoque Territorial:** Contrastar las dinámicas salariales específicas del área metropolitana de Cartagena frente al resto de la Región Caribe.
+* **Análisis Comparativo Territorial:** Contrastar directamente las dinámicas salariales y las brechas de género de Cartagena frente al agregado del resto de la Región Caribe.
+* **Penalización del Ingreso por Informalidad:** Cuantificar el castigo económico que sufren los ingresos por hora de los trabajadores informales y su comportamiento diferenciado por sexo en ambos territorios.
+* **Determinantes Sociodemográficos:** Evaluar el impacto de la educación, la edad y la estructura del hogar sobre los ingresos de los hombres y las mujeres del Caribe.
 
 ## 🛠️ Estructura del Repositorio
-* `scripts/`: Scripts en R para procesamiento de microdatos, análisis descriptivo y especificación de modelos salariales.
-* `output_plots/`: Matrices de correlación, distribuciones salariales y mapas de calor estéticos para las variables del mercado de trabajo.
+* `scripts/`: Scripts optimizados en R para la segmentación territorial (Cartagena vs. Resto Caribe), limpieza y modelado econométrico.
+* `output_plots/`: Visualizaciones de datos, matrices de correlación y mapas de calor estéticos adaptados al contraste del estudio.
 
 ## 🔍 Tecnologías Utilizadas
 * **R (Tidyverse, Here, ggplot2)**
