@@ -1,0 +1,8 @@
+# Ignorar datos crudos pesados y archivos temporales
+*.zip
+*.rar
+data/
+output_temp/
+.Rhistory
+.RData
+.Rproj.user/
